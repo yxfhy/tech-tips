@@ -14,4 +14,10 @@ sudo apt install -y chromium-browser
 sudo apt install fonts-noto-cjk
 ```
 
+# 編集可能なpptxを生成する設定
+`Pptx: Editable`を`on`
+
+
+
+
   

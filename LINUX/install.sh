@@ -14,4 +14,7 @@ sudo npm install -g @marp-team/marp-cli
 
 #  marp to pptx need this
 sudo apt install -y chromium-browser
+sudo apt install fonts-noto-cjk
+
+
 

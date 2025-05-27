@@ -93,3 +93,11 @@ Ctrl+Shift+P → Snippets: Configure Snippets →　global.code-snippets　に�
   }
 }
 ```
+
+# 左ペインのエクスプローラから色んなファイルを開く
+プラグインの`Open in External App`をインストール。 
+## 開き方
+エクスプローラで .ppt(x) を右クリック → Open in External App  
+→ 既定アプリが PowerPoint に設定されていれば、そのまま PowerPoint が起動します。  
+※ 既定アプリが別ソフトの場合は、Windows の「既定のアプリ」設定で PowerPoint を関連付けてください。  
+

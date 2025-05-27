@@ -1,3 +1,27 @@
+
+
+
+# スニペット
+Ctrl+Shift+P → Snippets: Configure Snippets →　global.code-snippets　に下記を追加で`;date`と入力すると日付が挿入される
+```json
+{
+  "Insert Today Date": {
+    "prefix": ";date",
+    "body": [
+      "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}"
+    ],
+    "description": "今日の日付を YYYY-MM-DD 形式で挿入"
+  }
+}
+```
+
+# 左ペインのエクスプローラから色んなファイルを開く
+プラグインの`Open in External App`をインストール。 
+## 開き方
+エクスプローラで .ppt(x) を右クリック → Open in External App  
+→ 既定アプリが PowerPoint に設定されていれば、そのまま PowerPoint が起動します。  
+※ 既定アプリが別ソフトの場合は、Windows の「既定のアプリ」設定で PowerPoint を関連付けてください。  
+
 # VSCodeでのリモートデバッグ設定
 ## 設定
 ### 1. tasks.json の設定
@@ -77,27 +101,3 @@
 
 3. **`devcontainer.json` のポート公開・転送**  
    
-
-
-
-# スニペット
-Ctrl+Shift+P → Snippets: Configure Snippets →　global.code-snippets　に下記を追加で`;date`と入力すると日付が挿入される
-```json
-{
-  "Insert Today Date": {
-    "prefix": ";date",
-    "body": [
-      "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}"
-    ],
-    "description": "今日の日付を YYYY-MM-DD 形式で挿入"
-  }
-}
-```
-
-# 左ペインのエクスプローラから色んなファイルを開く
-プラグインの`Open in External App`をインストール。 
-## 開き方
-エクスプローラで .ppt(x) を右クリック → Open in External App  
-→ 既定アプリが PowerPoint に設定されていれば、そのまま PowerPoint が起動します。  
-※ 既定アプリが別ソフトの場合は、Windows の「既定のアプリ」設定で PowerPoint を関連付けてください。  
-

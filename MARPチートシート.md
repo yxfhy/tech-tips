@@ -21,8 +21,10 @@ sudo apt install fonts-noto-cjk
 # 編集可能なpptxを生成する設定
 `Pptx: Editable`を`on`
 
+さらに[LibreOfficeをインストール](https://www.libreoffice.org/download/download-libreoffice/)
+
 # 使い方
-.mdファイルの先頭で下記を記入
+.mdファイルの先頭でMARP有効化のおまじないを記入し、あとは普通にMDを書く
 ```
 ---
 marp: true

@@ -1,4 +1,5 @@
 # INSTALL
+ubuntuでは下記の要領でインストール。WindowsではVSCodeのプラグインのみのインストールでよい。
 ```
 sudo apt update
 
@@ -14,9 +15,21 @@ sudo apt install -y chromium-browser
 sudo apt install fonts-noto-cjk
 ```
 
+さらにVSCodeで`Marp for VS Code`をインストール  
+
+
 # 編集可能なpptxを生成する設定
 `Pptx: Editable`を`on`
 
+# 使い方
+.mdファイルの先頭で下記を記入
+```
+---
+marp: true
+---
+# THIS IS MY FIRST MARPSLIDE
+## Section 1
+```
 
 
 

@@ -1,11 +1,14 @@
 # サーバーからファイルをリポジトリに自動追加
 
 ##  GitHub でトークンを発行
-1. Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token
 
-2. Token name と有効期限（例 90 日）を入力
+0. https://github.com/settings/personal-access-tokens
+   
+2. Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token
 
-3. Repository access は Only select repositories を選び、メモ専用リポジトリだけチェック
+3. Token name と有効期限（例 90 日）を入力
+
+4. Repository access は Only select repositories を選び、メモ専用リポジトリだけチェック
 
 3. Repository permissions で Contents → Read and write を選択（他は No access のまま）
 

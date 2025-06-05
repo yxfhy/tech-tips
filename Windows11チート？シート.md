@@ -15,7 +15,7 @@ Microsoft Store → 設定 → アプリ更新 を ON にすると、Store 配�
 ```
 subst X: C:\Users\master\Documents\ProjectA
 ```
-それをスタートアップ（shell:startup）に登録　　
+それをスタートアップ（shell:startup）に登録  
 エクスプローラのこのPCを表示でツリー展開できる
 
 

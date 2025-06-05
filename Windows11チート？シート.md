@@ -8,6 +8,14 @@ Microsoft Store → 設定 → アプリ更新 を ON にすると、Store 配�
 ## ターミナルアプリをタブ管理したい
 [WindowsTerminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=ja-JP&gl=JP)
 ## すばやくフォルダを開きたい
+### 専用ソフト
 [SystemTrayMenu](https://apps.microsoft.com/detail/9n24f8zbjmt1?hl=ja-JP&gl=JP)
+### 標準機能で
+下記のようにフォルダにドライブ名を一時的につけるbatファイルを作成 
+```
+subst X: C:\Users\master\Documents\ProjectA
+```
+それをスタートアップ（shell:startup）に登録　　
+エクスプローラのこのPCを表示でツリー展開できる
 
 
